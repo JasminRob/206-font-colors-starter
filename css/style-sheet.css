@@ -1,6 +1,7 @@
 /* ----------- Mobile first/defualt ----------- */
 
-body, html {
+body, 
+html {
   text-align: center;
   font-family: Gotham, Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -25,14 +26,15 @@ h2 {
 
 /* ----------- For screens 768px wide and larger (tablet) ----------- */
 
-@media (min-width: 768px)
-body, html {
+@media (min-width: 768px) {
+body,
+html {
   text-align: center;
   font-family: Gotham, Helvetica, Arial, sans-serif;
   font-size: 1em;
   color: #7b8f8e ;
 }
-
+}
 section {
   width: 50%;
   margin: auto;
@@ -50,14 +52,15 @@ h2 {
 
 /* ----------- For screens 1200px wide and larger (desktop)----------- */
 
-@media (min-width: 1200px)
-body, html { 
+@media (min-width: 1200px) {
+body, 
+html { 
   text-align: center;
   font-family: Gotham, Helvetica, Arial, sans-serif;
   font-size: 1em;
   color:#c19e74; 
 }
-
+}
 section {
   width: 50%;
   margin: auto;
